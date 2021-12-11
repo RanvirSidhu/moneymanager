@@ -1,0 +1,12 @@
+#tns {
+    width: 85vw;
+    height: 93.2vh;
+    padding: 20px;
+}
+
+.table {
+    height: 100%;
+    /* background-color: #0A1929; */
+    color: white;
+    box-shadow: 5px 5px 8px 0 rgb(0 0 0 / 20%);
+}

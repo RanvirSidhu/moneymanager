@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    font-family:Roboto;
+}
+
+.expl-div{
+    background-color: black;
+    color:white;
+    width:15vw;
+}
+
+.expl-list {
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    padding:0px;
+    position: relative;
+    background-color: black;
+    font-weight: bold;
+}
+
+.expl-list >li {
+    width: 15vw;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+}
+
+.butn:hover{
+    cursor: pointer;
+    background-color:white;
+    color: black;
+}
+
+.bottom {
+    position: absolute;
+    margin-top: 79.6vh;
+    right: 0px;
+    width: 15vw;
+    background-color:black ;
+}
+

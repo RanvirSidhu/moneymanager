@@ -1,0 +1,29 @@
+.nav {
+    height: 50px;
+    text-align: center;
+    
+}
+
+.nav-list {
+    background:linear-gradient(to right, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
+    height: 100%;
+    display: flex;
+    margin:0px;
+    list-style:none;
+    padding: 10px 0px 10px 10px;
+    align-items: center;
+}
+
+.right {
+    list-style: none;
+    margin-left: auto;
+    text-align: center;
+}
+
+.sub{
+    padding: 0px 10px;
+    color:black;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+

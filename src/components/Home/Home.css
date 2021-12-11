@@ -1,0 +1,82 @@
+.cover{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(to right, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
+}
+
+.cover > div{
+    margin: 15px;
+}
+
+.cover p {
+    font-family: Lobster;
+    text-align: center;
+}
+
+.home-header{
+    font-size: 3em;
+}
+
+.slogan{
+    font-size: 1.5em;
+}
+
+.flexs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    height: 20vh;
+    width: 50vw;
+    text-align: center;
+    padding: 25px;
+    font-family: Montserrat;
+    height: 100%;
+    width: 100%;
+}
+
+.cont>h2{
+    font-size: 2.2em;
+}
+
+.bl{
+    background-color: black;
+    color: white;
+}
+
+#info{
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#info>h2{
+    font-size: 2.5em;
+}
+
+.pro{
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.zones{
+    max-width: 350px;
+    min-width: 150px;
+    padding: 10px;
+}
+
+.zones > img {
+    height: 150px;
+    width: auto;
+}
+
+.text
+{
+    font-family: Montserrat;
+    font-size: 18px;
+}
