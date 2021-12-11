@@ -13,7 +13,7 @@ function Expl(props) {
             }
                 <div className='bottom'>
                     <li className='butn bt ma0 pa3 b--white'>Settings</li>
-                    <li className='butn bt ma0 pa3 b--white'>Sign Out</li>
+                    <Link className="links" to={'/'}><li className='butn bt ma0 pa3 b--white'>Sign Out</li> </Link>
                 </div>
             </ul>
         </div>

@@ -66,10 +66,51 @@ class Info extends React.Component {
                         </div>
                         <div className='box'>
                             <div className='header'>
-                                <p>Next Payment Due</p>
+                                <p>Bills</p>
                             </div>
                             <div className='details'>
-                                <p>10/12/2021</p>
+                                <div class='bills'>
+                                <p>Electricity</p>
+                                <p>Due</p>
+                                </div>
+                                <div class='bills'>
+                                <p>Water</p>
+                                <p>Due</p>
+                                </div>
+                                <div class='bills'>
+                                <p>Wifi</p>
+                                <p>Paid</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='box'>
+                            <div className='header'>
+                                <p>Credit Cards</p>
+                            </div>
+                            <div className='details in'>
+                                <div class='bills'>
+                                    <p>5883</p>
+                                    <p>Due</p>
+                                </div>
+                                <div class='bills'>
+                                <p>4723</p>
+                                <p>Paid</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='box'>
+                            <div className='header'>
+                                <p>Loans/EMI</p>
+                            </div>
+                            <div className='details'>
+                                <div class='bills'>
+                                <p>Home</p>
+                                <p>Paid</p>
+                                </div>
+                                <div class='bills'>
+                                <p>Car</p>
+                                <p>Due</p>
+                                </div>
                             </div>
                         </div>
                         <div className='box'>
@@ -77,7 +118,7 @@ class Info extends React.Component {
                                 <p>Next Payment Due</p>
                             </div>
                             <div className='details'>
-                                <p>10/12/2021</p>
+                                <p>21/12/2021</p>
                             </div>
                         </div>
                         <div className='box'>
@@ -85,23 +126,7 @@ class Info extends React.Component {
                                 <p>Next Payment Due</p>
                             </div>
                             <div className='details'>
-                                <p>10/12/2021</p>
-                            </div>
-                        </div>
-                        <div className='box'>
-                            <div className='header'>
-                                <p>Next Payment Due</p>
-                            </div>
-                            <div className='details'>
-                                <p>10/12/2021</p>
-                            </div>
-                        </div>
-                        <div className='box'>
-                            <div className='header'>
-                                <p>Next Payment Due</p>
-                            </div>
-                            <div className='details'>
-                                <p>10/12/2021</p>
+                                <p>10/01/2022</p>
                             </div>
                         </div>
                     </div>
