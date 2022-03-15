@@ -105,6 +105,8 @@ class Info extends React.Component {
                                 <div class='bills'>
                                     <p>{this.state.cards[0].no}</p>
                                     <p id='0' onClick={this.paid}>{this.state.cards[0].charge}</p>
+                                    <p>5883</p>
+                                    <p>Due</p>
                                 </div>
                                 <div class='bills'>
                                 <p>4723</p>
