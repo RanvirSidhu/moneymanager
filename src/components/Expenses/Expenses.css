@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    height: 100%;
+}
+
+.info{
+    width: 85vw;
+}
+
+.pre-year{
+    height: 43vh;
+    width: 85vw;
+}
+
+.exp-box{
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.months{
+    width:40vw;
+    height: 40vh;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading {
+    justify-content: space-between;
+}
+
+.monthly {
+    padding-top: 10px;
+    height: 34vh;
+}
+
+.bar{
+    height: 90%;
+}
+
+select{
+    width: 120px;
+    text-align: right;
+    border: none;
+}

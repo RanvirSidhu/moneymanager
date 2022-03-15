@@ -1,0 +1,21 @@
+
+.cash {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.pop-inputs {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.pop-sel{
+    width: 100%;
+    text-align: left;
+}
+
+.pop-but{
+    font-size: 20px;
+}

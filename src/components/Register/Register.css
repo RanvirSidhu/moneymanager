@@ -1,0 +1,94 @@
+#register {
+    background: linear-gradient(to right, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
+    height: 100vh;  
+}
+
+#register-main{
+    height: 70%;
+}
+
+#reg-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 40px;
+    border: 2px solid white;
+    box-shadow: 14px 16px 20px 12px rgb(0 0 0 / 20%);
+    border-radius: 7px;
+    background-color: rgba(255,255,255, 0.4);
+}
+
+.form-heading{
+    font-size: 40px;
+    font-family: Montserrat;
+    margin:0px 0px 10px 0px;
+}
+
+.sub-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items:flex-start ;
+    align-content: space-around;
+    width: 100%;
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin:10px 0px ;
+}
+
+.labels > label {
+    font-family: Montserrat;
+}
+
+.inputs{
+    width:300px;
+    height:30px;
+}
+
+.fbl:focus{
+    background-color: black;
+    color:white;
+    border:none;
+}
+
+.fbl:hover{
+    background-color: black;
+    color:white;
+    border:none;
+
+}
+
+.butns{
+    width:100px ;
+    height: 30px;
+    font-family: Montserrat;
+    margin:10px 5px 0px 5px ;
+}
+
+.frms{
+    width: 300px;
+    margin: 0px 20px;
+}
+
+.date {
+    width: 295px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#dates {
+    display: flex;
+    align-items: flex-end;
+}
+
+#b-type{
+    text-align: right;
+}
